@@ -7,7 +7,12 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm("gmail", "template_9kdqbyo", form.current, "bYgYE6BBhyNvy3Qwp")
+      .sendForm(
+        "service_7rlkr1w",
+        "template_9kdqbyo",
+        form.current,
+        "bYgYE6BBhyNvy3Qwp"
+      )
       .then(
         () => {
           alert("Message successfully sent!");
