@@ -1,7 +1,6 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import Link from "react-scroll/modules/components/Link";
-import { Fade } from "react-awesome-reveal";
 
 const Home = () => {
   return (
@@ -9,25 +8,21 @@ const Home = () => {
       {/* Container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-teal-600">Hi, my name is</p>
-        <Fade delay={1000}>
-          <h1 className="text-2xl sm:text-5xl font-bold text-[#ccd6f6]">
-            Ljiljana Mojsilović
-          </h1>
-        </Fade>
-        <Fade delay={2000}>
-          <h2 className="text-2xl sm:text-5xl font-bold text-[#8892b0]">
-            I'm a Junior Frontend Developer.
-          </h2>
-        </Fade>
 
-        <Fade delay={3000}>
-          <p className="text-[#8892b0] py-4 max-w-[700px]">
-            I’m a frontend developer specializing in building (and occasionally
-            designing) exceptional digital experiences. Currently, I’m focused
-            on building responsive Java Script web applications, with a special
-            interest in React.
-          </p>
-        </Fade>
+        <h1 className="text-2xl sm:text-5xl font-bold text-[#ccd6f6]">
+          Ljiljana Mojsilović
+        </h1>
+
+        <h2 className="text-2xl sm:text-5xl font-bold text-[#8892b0]">
+          I'm a Junior Frontend Developer.
+        </h2>
+
+        <p className="text-[#8892b0] py-4 max-w-[700px]">
+          I’m a frontend developer specializing in building (and occasionally
+          designing) exceptional digital experiences. Currently, I’m focused on
+          building responsive Java Script web applications, with a special
+          interest in React.
+        </p>
 
         <div>
           <Link to="work" smooth={true} duration={500}>
