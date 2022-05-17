@@ -3,7 +3,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/logo.png";
-import CV from "../assets/CV.pdf";
+import cv from "../assets/cv.pdf";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -119,7 +119,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href={CV}
+              href={cv}
               download
             >
               Resume <BsFillPersonLinesFill size={30} />
