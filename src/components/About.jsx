@@ -1,5 +1,5 @@
 import React from "react";
-import { Fade } from "react-awesome-reveal";
+import { Slide } from "react-awesome-reveal";
 const About = () => {
   return (
     <div name="about" className="w-full h-screen bg-[#0a192f] text-gray-300">
@@ -14,14 +14,14 @@ const About = () => {
         </div>
 
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
-          <Fade direction="left">
+          <Slide cascade={true} direction="right">
             <div className="sm:text-right text-2xl font-bold">
               <p>
                 Hi. I'm Ljiljana, nice to meet you. Please take a look around.
               </p>
             </div>
-          </Fade>
-          <Fade direction="right">
+          </Slide>
+          <Slide>
             <div>
               <p>
                 I am Bachelor of Economics who went on a road to become a
@@ -31,7 +31,7 @@ const About = () => {
                 improvement and development of personal abilities and knowledge
               </p>
             </div>
-          </Fade>
+          </Slide>
         </div>
       </div>
     </div>

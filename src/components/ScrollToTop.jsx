@@ -28,7 +28,7 @@ export const ScrollToTop = () => {
   }, []);
 
   return (
-    <div className="fixed bottom-2 right-2 w-full h-screen">
+    <div className="fixed bottom-2 right-2">
       <button
         type="button"
         onClick={scrollToTop}
