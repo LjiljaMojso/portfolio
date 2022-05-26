@@ -9,13 +9,13 @@ import { ScrollToTop } from "./components/ScrollToTop";
 function App() {
   return (
     <div>
-      <ScrollToTop />
       <Navbar />
       <Home />
       <About />
       <Skills />
       <Work />
       <Contact />
+      <ScrollToTop />
     </div>
   );
 }
