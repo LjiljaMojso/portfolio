@@ -1,5 +1,7 @@
 @tailwind base;
+
 @tailwind components;
+
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
 @layer base {
@@ -91,21 +93,5 @@
     padding: 20px;
     box-sizing: border-box;
     min-height: 150px;
-  }
-
-  .flat-button {
-    color: #ffd700;
-    font-size: 11px;
-    letter-spacing: 3px;
-    text-decoration: none;
-    padding: 8px 10px;
-    border: 1px solid #ffd700;
-    float: left;
-    border-radius: 4px;
-    background: 0 0;
-    text-transform: uppercase;
-    float: right;
-    text-align: center;
-    margin-right: 10px;
   }
 }
