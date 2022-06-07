@@ -27,8 +27,7 @@ const About = () => {
                 I am Bachelor of Economics who went on a road to become a
                 frontend developer. I was learning Front-End Development for
                 more than one year, slowly and steadily, and during that time i
-                fell in love with Java Script and CS. Ready for further
-                improvement and development of personal abilities and knowledge
+                fell in love with Java Script and ReactJs.
               </p>
             </div>
           </Slide>
