@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.d7ba1ace.css",
-    "main.js": "/portfolio/static/js/main.f2aac2f7.js",
+    "main.js": "/portfolio/static/js/main.b0d72cb7.js",
     "static/media/Shop.png": "/portfolio/static/media/Shop.e9b91982aaf90f9bb4dc.png",
     "static/media/IFoodApp.png": "/portfolio/static/media/IFoodApp.4dbcdf3bd37c620177c4.png",
     "static/media/MoviesFilter.png": "/portfolio/static/media/MoviesFilter.f1006737a5db2455ba78.png",
     "static/media/RecipeApp.png": "/portfolio/static/media/RecipeApp.2afde01df792f43b0a7c.png",
-    "static/media/forecast.png": "/portfolio/static/media/forecast.0721a2eedf6809b60076.png",
+    "static/media/appsmall.png": "/portfolio/static/media/appsmall.f24ad97f4209455c4662.png",
     "static/media/cv.pdf": "/portfolio/static/media/cv.69f589f4e53f707951b6.pdf",
     "static/media/react.png": "/portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/crud2.png": "/portfolio/static/media/crud2.dead6d72ddc62ffb24ab.png",
@@ -20,10 +20,10 @@
     "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio/index.html",
     "main.d7ba1ace.css.map": "/portfolio/static/css/main.d7ba1ace.css.map",
-    "main.f2aac2f7.js.map": "/portfolio/static/js/main.f2aac2f7.js.map"
+    "main.b0d72cb7.js.map": "/portfolio/static/js/main.b0d72cb7.js.map"
   },
   "entrypoints": [
     "static/css/main.d7ba1ace.css",
-    "static/js/main.f2aac2f7.js"
+    "static/js/main.b0d72cb7.js"
   ]
 }
