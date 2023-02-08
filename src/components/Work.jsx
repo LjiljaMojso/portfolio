@@ -1,6 +1,6 @@
 import React from "react";
 import RecipeApp from "../assets/RecipeApp.png";
-import forecast from "../assets/forecast.png";
+import appsmall from "../assets/appsmall.png";
 import IFoodApp from "../assets/IFoodApp.png";
 import MoviesFilter from "../assets/MoviesFilter.png";
 import crud2 from "../assets/crud2.png";
@@ -49,21 +49,21 @@ const Work = () => {
           </Zoom>
           <Zoom delay={1000}>
             <div
-              style={{ backgroundImage: `url(${forecast})` }}
+              style={{ backgroundImage: `url(${appsmall})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
             >
               {/* Hover Effects */}
               <div className="opacity-0 group-hover:opacity-100">
                 <span className="text-xl text-white tracking-wider">
-                  React JS Application/Weather App
+                  React JS Application/Search Weather App
                 </span>
                 <div className="pt-8 text-center">
-                  <a href="https://ljiljamojso.github.io/react-weather-app/">
+                  <a href="https://ljiljamojso.github.io/search-weather-app/">
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-400 font-bold text-lg">
                       Demo
                     </button>
                   </a>
-                  <a href="https://github.com/LjiljaMojso/react-weather-app">
+                  <a href="https://github.com/LjiljaMojso/search-weather-app">
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-400 font-bold text-lg">
                       Code
                     </button>
