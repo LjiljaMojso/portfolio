@@ -22,23 +22,25 @@ const Contact = () => {
     setFormErrors(validate(formValues));
 
     setIsSubmit(true);
-    emailjs
-      .sendForm(
-        "service_7rlkr1w",
-        "template_9kdqbyo",
-        form.current,
-        "bYgYE6BBhyNvy3Qwp"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    if (isSubmit) {
+      emailjs
+        .sendForm(
+          "service_7rlkr1w",
+          "template_9kdqbyo",
+          form.current,
+          "bYgYE6BBhyNvy3Qwp"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+    }
 
-    setFormValues("");
+    setFormValues(initialValues);
   };
 
   useEffect(() => {
@@ -84,7 +86,7 @@ const Contact = () => {
           </p>
         </div>
         {Object.keys(formErrors).length === 0 && isSubmit ? (
-          <p className="text-gray-200">Signed in successfully</p>
+          <p className="text-[#8E8D89]">Message send successfully</p>
         ) : null}
         <input
           className="bg-[#D8C3A4] p-2 text-[#8E8D89]"
@@ -94,7 +96,7 @@ const Contact = () => {
           onChange={handleChange}
           value={formValues.name}
         />
-        <p className="text-gray-200">{formErrors.name}</p>
+        <p className="text-[#8E8D89]">{formErrors.name}</p>
         <input
           className="my-4 p-2 bg-[#D8C3A4]"
           type="email"
@@ -103,7 +105,7 @@ const Contact = () => {
           onChange={handleChange}
           value={formValues.email}
         />
-        <p className="text-gray-200">{formErrors.email}</p>
+        <p className="text-[#8E8D89]">{formErrors.email}</p>
         <input
           className="my-4 p-2 bg-[#D8C3A4]"
           type="text"
@@ -118,7 +120,7 @@ const Contact = () => {
           onChange={handleChange}
           value={formValues.message}
         ></textarea>
-        <p className="text-gray-200">{formErrors.message}</p>
+        <p className="text-[#8E8D89]">{formErrors.message}</p>
         <button
           type="submit"
           value="Send"
