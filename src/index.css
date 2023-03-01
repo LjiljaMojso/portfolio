@@ -24,8 +24,8 @@
 .content-div:hover {
   background-image: linear-gradient(
     to right,
-    rgba(40, 233, 207, 0.8),
-    hsla(165, 79%, 49%, 0.799)
+    rgba(216, 198, 164, 0.8),
+    hsla(216, 44%, 85%, 0.5)
   ) !important;
 }
 .back-to-top {
@@ -75,7 +75,6 @@
   input[type="email"] {
     width: 100%;
     border: 0;
-    background: #115173;
     height: 50px;
     font-size: 16px;
     color: #fff;
@@ -86,8 +85,7 @@
   textarea {
     width: 100%;
     border: 0;
-    background: #115173;
-    height: 50px;
+    height: 40px;
     font-size: 16px;
     color: #fff;
     padding: 20px;
