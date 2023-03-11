@@ -5,15 +5,20 @@ import Skills from "./components/Skills";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
 import { ScrollToTop } from "./components/ScrollToTop";
-
+import { useState, useEffect } from "react";
+import work from "./work";
 function App() {
+  const [showWork, setShowWork] = useState([]);
+  useEffect(() => {
+    setShowWork(work);
+  }, []);
   return (
-    <div>
+    <div className="box-border">
       <Navbar />
       <Home />
       <About />
       <Skills />
-      <Work />
+      <Work showWork={showWork} />
       <Contact />
       <ScrollToTop />
     </div>
