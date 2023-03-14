@@ -34,7 +34,7 @@ const work = [
     imgSrc: require("./assets/appScreenshot.png"),
     description:
       "App for list, add, update and delete employees from database.",
-    demolink: "",
+    demolink: "https://ljiljamojso.github.io/employee_app/",
     codelink: "https://github.com/LjiljaMojso/employee_app",
   },
   {
