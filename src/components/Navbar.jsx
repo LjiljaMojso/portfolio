@@ -85,6 +85,35 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
+        <li className="w-[100px] h-[20px] flex justify-between items-center mt-10">
+          <a
+            className="flex justify-between items-center w-full text-[#8E8D89]"
+            href="https://www.linkedin.com/in/ljiljana-mojsilovi%C4%87-52bb4420b/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaLinkedin size={30} />
+          </a>
+        </li>
+        <li className="w-[100px] h-[20px] flex justify-between items-center mt-10">
+          <a
+            className="flex justify-between items-center w-full text-[#8E8D89]"
+            href="https://github.com/LjiljaMojso"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaGithub size={30} />
+          </a>
+        </li>
+        <li className="w-[100px] h-[20px] flex justify-between items-center mt-10">
+          <a
+            className="flex justify-between items-center w-full text-[#8E8D89]"
+            href={cv}
+            download
+          >
+            <BsFillPersonLinesFill size={30} />
+          </a>
+        </li>
       </ul>
 
       {/* Social icons */}

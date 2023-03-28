@@ -3,7 +3,10 @@ import React from "react";
 import { Zoom } from "react-awesome-reveal";
 const Work = ({ showWork }) => {
   return (
-    <div name="work" className="w-full md:h-screen text-[#8E8D89] bg-[#EAE8DC]">
+    <div
+      name="work"
+      className="w-full md:h-screen text-[#8E8D89] bg-[#EAE8DC] "
+    >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 text-[#D8C3A4] border-[#E98074]">
@@ -24,8 +27,8 @@ const Work = ({ showWork }) => {
                   className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
                 >
                   {/* Hover Effects */}
-                  <div className="opacity-0 group-hover:opacity-100 box-border hover:box-content">
-                    <span className="text-base text-[#8E8D89] tracking-wider m-10">
+                  <div className="opacity-0 group-hover:opacity-100 box-border hover:box-content p-10">
+                    <span className="text-base text-[#8E8D89] text-center">
                       {work.description}
                     </span>
                     <div className="pt-8 text-center">

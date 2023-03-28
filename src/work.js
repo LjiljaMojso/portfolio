@@ -54,11 +54,11 @@ const work = [
   },
   {
     id: 8,
-    imgSrc: require("./assets/printsc.jpeg"),
+    imgSrc: require("./assets/movieapp.png"),
     description:
-      "App made using React JS for searching movies and adding them to Watch list and Watched list. This is final React project in my coding bootcamp.",
-    demolink: "",
-    codelink: "https://github.com/LjiljaMojso/movie-bucketlist",
+      "App made using React JS for searching movies and adding them to Watch list. This is final React project in my coding bootcamp.",
+    demolink: "https://ljiljamojso.github.io/movie-app/",
+    codelink: "https://github.com/LjiljaMojso/movie-app",
   },
 ];
 export default work;

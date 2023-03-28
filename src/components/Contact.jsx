@@ -69,7 +69,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-[#EAE8DC] flex justify-center items-center p-4"
+      className="w-full md:h-screen bg-[#EAE8DC] flex justify-center items-center pt-52"
     >
       <form
         ref={form}
